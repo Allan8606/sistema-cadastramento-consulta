@@ -35,6 +35,7 @@ btnPesquisar.addEventListener("click", () => {
 
                 if (!pesquisaIgual) {
                     h2.textContent = "Cliente Não Encontrado";
+                    divClientes.remove();
                 }
 
                 if (pesquisaIgual) {
