@@ -1,0 +1,32 @@
+{
+  "clientes": [
+    {
+      "id": "2fc2",
+      "name": "ALLAN ISAAC LIMA COSTA",
+      "endereco": "Rua Desembargador Alvaro Brandao",
+      "telefone": "85986065542",
+      "observacoes": "fazendo teste"
+    },
+    {
+      "id": "a7dd",
+      "name": "JOSE ARTHUR",
+      "endereco": "Pedro II",
+      "telefone": "998335142",
+      "observacoes": "Mais velho"
+    },
+    {
+      "id": "5bcf",
+      "name": "THEO LIMA COSTA",
+      "endereco": "Multirão",
+      "telefone": "995485203",
+      "observacoes": "Mais novo"
+    },
+    {
+      "id": "c540",
+      "name": "Allan Isaac Lima Costa",
+      "endereco": "Rua Desembargador Alvaro Brandao",
+      "telefone": "85986065542",
+      "observacoes": ""
+    }
+  ]
+}

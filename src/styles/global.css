@@ -1,0 +1,24 @@
+@import url(./styles.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* cores */
+    --cor-primaria-laranja: #ff6a13;
+    --cor-secundaria-azul: #003399;
+    --cor-terciaria-amarelo: #fdf918;
+
+    /* Fontes */
+    --fonte-principal: "Roboto", serif;
+    --fonte-secundaria: "Poppins", serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-primaria-laranja);
+    font-family: var(--fonte-principal);
+}

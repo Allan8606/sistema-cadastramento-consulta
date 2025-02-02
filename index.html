@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Clientes</title>
+
+  <link rel="stylesheet" href="/src/styles/global.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Pesquisar Clientes</h1>
+
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Pesquise pelo nome">
+      <button id="btn-pesquisar" type="submit">Pesquisar</button>
+    </div>
+
+    <h1>Cadastro de Clientes</h1>
+    <form id="userForm">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" placeholder="Digite o nome" required>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" placeholder="Digite o Endereço" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="number" id="telefone" placeholder="Digite o telefone" required>
+
+      <label for="observacoes">Observações:</label>
+      <input type="text" id="observacoes" placeholder="Digite observações, caso tenha">
+
+      <button id="btn-cadastrar" type="submit">Cadastrar</button>
+    </form>
+
+    <!-- <h2>Lista de Clientes</h2> -->
+
+
+    <!-- <div class="box-clientes">
+      <h3>Allan Isaac Lima Costa</h3>
+      <p>Endereço: Rua Desembargador Alvaro Brandao,549</p>
+      <p>Telefone: 85986065542</p>
+      <p>Observações Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore a ab quidem iure eaque
+        accusantium eum soluta itaque quae. Et eaque consequuntur eius cumque omnis! Reprehenderit dolorem sunt minima
+        quis!</p>
+      <button class="btn-remove-box-clientes">Remover</button>
+    </div> -->
+
+  </div>
+
+  <script type="module" src="scripsts.js"></script>
+</body>
+
+</html>
