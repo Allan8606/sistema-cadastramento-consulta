@@ -114,3 +114,60 @@ h2 {
     border-radius: 0.5rem;
     font-size: 1rem;
 }
+
+
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Faz o container ocupar mais da tela em dispositivos menores */
+    }
+
+    h1 {
+        font-size: 2rem; /* Ajuste do tamanho do título */
+    }
+
+    .search-box input,
+    form input {
+        font-size: 1rem; /* Menor tamanho de fonte em dispositivos pequenos */
+    }
+
+    form button,
+    #btn-pesquisar {
+        width: 70%; /* Botões um pouco maiores */
+        font-size: 1.1rem;
+    }
+
+    .box-clientes {
+        padding: 0.8rem; /* Menor padding em telas pequenas */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%; /* Faz o container ocupar ainda mais a tela */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Reduz o tamanho do título em telas muito pequenas */
+    }
+
+    .search-box input,
+    form input {
+        font-size: 1rem; /* Ajuste para fontes menores em telas muito pequenas */
+    }
+
+    form button,
+    #btn-pesquisar {
+        width: 80%; /* Botões mais largos */
+        font-size: 1.2rem;
+    }
+
+    .box-clientes {
+        padding: 0.5rem; /* Menor padding em telas muito pequenas */
+    }
+
+    .btn-box-clientes {
+        width: 70%; /* Botão da caixa de clientes um pouco maior */
+    }
+}
