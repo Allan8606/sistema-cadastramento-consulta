@@ -1,6 +1,11 @@
 {
   "clientes": [
-    
-
+    {
+      "id": "69a2",
+      "name": "Allan Isaac Lima Costa",
+      "endereco": "Rua Desembargador Alvaro Brandao",
+      "telefone": "85986065542",
+      "observacoes": ""
+    }
   ]
 }

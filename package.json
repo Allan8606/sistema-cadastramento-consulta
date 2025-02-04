@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "start": "node scripts",
         "server": "json-server server.json --port=3333"
     },
     "dependencies": {
